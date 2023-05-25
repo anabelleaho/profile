@@ -1,11 +1,13 @@
 h2 {
-  color: rgb(184, 85, 85);
+  color: rgb(0, 0, 0);
 }
 
 body {
   background-color: #ffffff;
   text-align: center;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Montserrat', sans-serif;
+  background-image: url("images/pastel-yellow-soft-gradient-blur-vector-background_53876-174855.avif");
+  background-size: contain;
 }
 
 p {
@@ -21,12 +23,13 @@ p {
 }
 
 .card {
-  background: rgb(226, 218, 218);
-  margin: 50px;
-  padding: 50px;
-  border: 1px solid lightgrey;
-  border-radius: 5%;
+  background: rgb(255, 212, 146);
+  margin: 50px auto;
+  padding: 0 50px;
+  border-style: dotted;
+  border-radius: 10px;
   text-align: center;
+  width: 500px;
 }
 
 .list-inline {
@@ -42,9 +45,10 @@ p {
   display: inline-block;
   margin: 1rem 0;
   padding: 16px 24px;
-  background-color: rgb(159, 159, 162);
-  color: white;
+  background-color: rgb(255, 195, 112);
+  color: rgb(0, 0, 0);
   border-radius: 8px;
+  border-style: dotted;
   text-decoration: none;
   transition: 100ms;
 }
