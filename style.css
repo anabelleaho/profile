@@ -1,0 +1,55 @@
+h2 {
+  color: rgb(184, 85, 85);
+}
+
+body {
+  background-color: #ffffff;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.card {
+  background: rgb(226, 218, 218);
+  margin: 50px;
+  padding: 50px;
+  border: 1px solid lightgrey;
+  border-radius: 5%;
+  text-align: center;
+}
+
+.list-inline {
+  padding: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.btn {
+  display: inline-block;
+  margin: 1rem 0;
+  padding: 16px 24px;
+  background-color: rgb(159, 159, 162);
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 100ms;
+}
+
+.btn:hover {
+  background-color: black;
+  background-size: white;
+}
